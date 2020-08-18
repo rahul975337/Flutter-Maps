@@ -20,6 +20,7 @@ class _MoveFromOneToOtherState extends State<MoveFromOneToOther> {
       Marker(
           markerId: MarkerId('myMarker'),
           draggable: true,
+          
           onTap: () {
             print('Marker Tapped');
           },

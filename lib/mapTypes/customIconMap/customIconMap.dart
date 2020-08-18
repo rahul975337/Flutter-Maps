@@ -27,6 +27,10 @@ class _CustomIconMapState extends State<CustomIconMap> {
     _setCircles();
   }
 
+  // void _setMarkerIcon() async {
+  //   _markerIcon = await BitmapDescriptor.fromAssetImage(
+  //       ImageConfiguration(), 'assets/noodle_icon.png');
+  // }
   void _setMarkerIcon() async {
     _markerIcon = await BitmapDescriptor.fromAssetImage(
         ImageConfiguration(), 'assets/noodle_icon.png');

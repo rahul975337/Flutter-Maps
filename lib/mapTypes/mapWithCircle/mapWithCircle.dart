@@ -95,12 +95,10 @@ class _MapWithCircleState extends State<MapWithCircle> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-    
       body: GoogleMap(
         mapType: MapType.hybrid,
         initialCameraPosition: initialLocation,
         myLocationEnabled: true,
-
         markers: Set.of((marker != null) ? [marker] : []),
         circles: Set.of((circle != null) ? [circle] : []),
         onMapCreated: (GoogleMapController controller) {
