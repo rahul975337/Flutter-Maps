@@ -213,7 +213,7 @@
     "elementType": "geometry.fill",
     "stylers": [
       {
-        "color": "#ff3a61"
+        "color": "#00ADBD"
       },
       {
         "visibility": "on"
@@ -246,7 +246,7 @@
     "elementType": "labels.icon",
     "stylers": [
       {
-        "color": "#f8006a"
+        "color": "#00ADBD"
       },
       {
         "weight": 2.5

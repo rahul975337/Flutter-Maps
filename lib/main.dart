@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:maps/mapTypes/customIconMap/customIconMap.dart';
+import 'package:maps/mapTypes/customIconMap/customIconMap.dart';
+import 'package:maps/mapTypes/mapWithCircle/mapWithCircle.dart';
 import 'package:maps/mapTypes/moveFromOneToOther/moveFromOneToOther.dart';
 import 'package:maps/mapTypes/searchAddressOnMaps/searchAddressesOnMaps.dart';
 
@@ -12,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       // home: SearchAddress(),
-      home: SearchAddress(),
+      home: MapWithCircle(),
     );
   }
 }
